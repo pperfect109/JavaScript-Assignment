@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Power of 2</title>
+    <script>
+        function powerOfTwo() {
+            return Math.pow(2, 5);
+        }
+
+        function displayPowerOfTwo() {
+            document.getElementById("powerResult").innerHTML = "2^5 = " + powerOfTwo();
+        }
+    </script>
+</head>
+<body>
+    <h2>Power of 2 raised to power 5</h2>
+    <div id="powerResult"></div>
+    <button onclick="displayPowerOfTwo()">Calculate Power</button>
+    <br>
+     <a href="assignment 2.html"> <button type="submit">Number 2 Assignment</button></a>
+</body>
+</html>

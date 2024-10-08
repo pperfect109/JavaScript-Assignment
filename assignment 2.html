@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+    <title>Sum and Square Root</title>
+
+</head>
+<body>
+    <h2>Square Root of the Sum of 5 and 4</h2>
+    <button onclick="calculateSqrt()">Calculate</button>
+    <div id="sqrtResult"></div>
+    <br>
+     <a href="index.html"> <button type="submit">Back to number 3 assignment</button></a>
+</body>
+    <script>
+        function calculateSqrt() {
+
+            let num1 = 5;
+            let num2 = 4;
+            
+
+            let sum = num1 + num2;
+
+
+            let sqrtResult = Math.sqrt(sum);
+
+
+            document.getElementById("sqrtResult").innerHTML = "The square root of the sum of 5 and 4 is: " + sqrtResult;
+        }
+    </script>
+</html>
